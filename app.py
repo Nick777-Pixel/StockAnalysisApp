@@ -236,8 +236,8 @@ if checkbox_noSP:
     pivot_sector = False
 
 
-start = st.text_input('Enter the start date in yyyy-mm-dd format:', '2018-01-01')
-end = st.text_input('Enter the end date in yyyy-mm-dd format:', '2019-01-01')
+start = st.text_input('Enter the start date in yyyy-mm-dd format:', '2022-01-01')
+end = st.text_input('Enter the end date in yyyy-mm-dd format:', '2022-04-01')
 
 
 
