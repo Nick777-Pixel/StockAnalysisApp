@@ -229,7 +229,7 @@ sp500_list = pd.read_csv('SP500_list.csv')
 
 ticker = st.selectbox('Select the ticker if present in the S&P 500 index', sp500_list['Symbol'], index = 30).upper()
 pivot_sector = True
-checkbox_noSP = st.checkbox('Select this box to write the ticker (if not present in the S&P 500 list). \
+checkbox_noSP = st.checkbox('Select this boxes to write the ticker (if not present in the S&P 500 list). \
                             Deselect to come back to the S&P 500 index stock list')
 if checkbox_noSP:
     ticker = st.text_input('Write the ticker (check it in yahoo finance)', 'MN.MI').upper()
